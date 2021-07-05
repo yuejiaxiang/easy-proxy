@@ -1,0 +1,4 @@
+aitool
+pytest
+requests
+beautifulsoup4
