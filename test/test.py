@@ -18,6 +18,6 @@
 from easyproxy import proxy, get_proxy
 
 for i in range(10):
-    print(proxy)
+    print(proxy())
 for i in range(10):
     print(get_proxy())

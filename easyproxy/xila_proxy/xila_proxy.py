@@ -31,7 +31,7 @@ class XiLaProxy(WebPageProxy):
         super().__init__(record_file_path=os.path.join(XiLaPath, 'record.json'))
 
     def _analysis_homepage(self) -> List:
-        for page_index in range(1, 5):
+        for page_index in range(1, 10):
             results = []
             try:
                 homepage = 'http://www.xiladaili.com/gaoni/{}/'.format(page_index)
