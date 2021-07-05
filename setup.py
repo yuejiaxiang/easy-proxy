@@ -22,14 +22,14 @@ except Exception:
 PACKAGE_VERSION_LOCAL = PACKAGE_VERSION + '+' + sha[:7]
 
 setup(
-  name='aitool',
+  name='easyproxy',
   version=PACKAGE_VERSION,
   author='xiangyuejia',
   author_email='xiangyuejia@qq.com',
-  description='An easy way to use proxy in python.',
+  description='An easy way to get high-hidden proxy (轻松获取高匿代理)',
   long_description=LONG_DESCRIPTION,
   long_description_content_type='text/markdown',
-  url='https://github.com/yuejiaxiang/easy-proxy.git',
+  url='git@git.woa.com:yuejiaxiang/easy-proxy.git',
   packages=find_packages(),
   classifiers=[
       'Programming Language :: Python :: 3',
