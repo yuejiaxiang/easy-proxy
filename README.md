@@ -16,7 +16,7 @@
 
 ## Installation
 ```shell script
-pip install easyproxy --extra-index-url https://mirrors.tencent.com/pypi/simple/
+pip install easyproxy
 ```
 
 ## use package
